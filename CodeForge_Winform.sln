@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeForge_Winform", "CodeForge_Winform.csproj", "{8F862D7F-126F-440F-817D-A99D6A5E07D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F862D7F-126F-440F-817D-A99D6A5E07D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F862D7F-126F-440F-817D-A99D6A5E07D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F862D7F-126F-440F-817D-A99D6A5E07D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F862D7F-126F-440F-817D-A99D6A5E07D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C6E328E-683B-47E8-9120-7781AFB4C0DA}
+	EndGlobalSection
+EndGlobal
