@@ -1,39 +1,4 @@
-CodeForge_Winform/
-│
-├── Presentation/                     # 🖥️ Tầng giao diện (UI)
-│   ├── Forms/
-│   │   ├── MainForm.cs
-│   │   ├── LoginForm.cs
-│   │   └── UserForm.cs
-│   ├── Controls/                     # Custom user controls (tùy chọn)
-│   └── Helpers/                      # MessageBox, UIUtil,...
-│
-├── Business/                         # ⚙️ Tầng xử lý nghiệp vụ
-│   ├── Interfaces/
-│   │   ├── IUserService.cs
-│   ├── Services/
-│   │   ├── UserService.cs
-│   └── Models/                       # DTO / ViewModel
-│       ├── UserModel.cs
-│
-├── DataAccess/                       # 🗄️ Tầng làm việc với DB
-│   ├── Entities/
-│   │   └── UserEntity.cs
-│   ├── Repositories/
-│   │   ├── IUserRepository.cs
-│   │   └── UserRepository.cs
-│   └── Database/
-│       └── DatabaseHelper.cs         # Kết nối DB (ADO.NET/Dapper)
-│
-├── Common/                           # 🧰 Dùng chung
-│   ├── Helpers/
-│   │   └── PasswordHelper.cs
-│   └── Config/
-│       └── AppSettings.cs
-│
-├── App.config                        # ConnectionString, config khác
-├── Program.cs                        # Main()
-└── CodeForge_Winform.sln
+<img width="839" height="907" alt="image" src="https://github.com/user-attachments/assets/f7a2ba5c-d9f5-47f5-856b-91c777983b84" />
 
 1️⃣ Presentation (UI Layer)
 
