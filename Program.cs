@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
 using CodeForge_Winform.CodeForge_Winform.Presentation.Forms;
+using CodeForge_Winform.CodeForge_Winform.Presentation.Forms.Student;
+using CodeForge_Winform.CodeForge_Winform.Presentation.Forms.Admin;
 
 namespace CodeForge_Winform
 {
@@ -14,7 +16,7 @@ namespace CodeForge_Winform
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            Application.Run(new MainFormAdmin());
         }
     }
 }

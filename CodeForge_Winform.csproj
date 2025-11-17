@@ -52,22 +52,112 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CodeForge_Winform.Presentation\Forms\Admin\MainFormAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CodeForge_Winform.Presentation\Forms\Admin\MainFormAdmin.Designer.cs">
+      <DependentUpon>MainFormAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CodeForge_Winform.Presentation\Forms\Admin\ucAdminDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CodeForge_Winform.Presentation\Forms\Admin\ucAdminDashboard.Designer.cs">
+      <DependentUpon>ucAdminDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CodeForge_Winform.Presentation\Forms\Admin\ucAdminSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CodeForge_Winform.Presentation\Forms\Admin\ucAdminSettings.Designer.cs">
+      <DependentUpon>ucAdminSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CodeForge_Winform.Presentation\Forms\Admin\ucProblemManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CodeForge_Winform.Presentation\Forms\Admin\ucProblemManagement.Designer.cs">
+      <DependentUpon>ucProblemManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CodeForge_Winform.Presentation\Forms\Admin\ucSystemLogs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CodeForge_Winform.Presentation\Forms\Admin\ucSystemLogs.Designer.cs">
+      <DependentUpon>ucSystemLogs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CodeForge_Winform.Presentation\Forms\Admin\ucUserManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CodeForge_Winform.Presentation\Forms\Admin\ucUserManagement.Designer.cs">
+      <DependentUpon>ucUserManagement.cs</DependentUpon>
+    </Compile>
     <Compile Include="CodeForge_Winform.Presentation\Forms\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CodeForge_Winform.Presentation\Forms\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="CodeForge_Winform.Presentation\Forms\MainForm.cs">
+    <Compile Include="CodeForge_Winform.Presentation\Forms\Student\MainFormStudent.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CodeForge_Winform.Presentation\Forms\MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <Compile Include="CodeForge_Winform.Presentation\Forms\Student\MainFormStudent.Designer.cs">
+      <DependentUpon>MainFormStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CodeForge_Winform.Presentation\Forms\Student\ucProblemList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CodeForge_Winform.Presentation\Forms\Student\ucProblemList.Designer.cs">
+      <DependentUpon>ucProblemList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CodeForge_Winform.Presentation\Forms\Student\ucStudentDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CodeForge_Winform.Presentation\Forms\Student\ucStudentDashboard.Designer.cs">
+      <DependentUpon>ucStudentDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CodeForge_Winform.Presentation\Forms\Student\ucStudentSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CodeForge_Winform.Presentation\Forms\Student\ucStudentSettings.Designer.cs">
+      <DependentUpon>ucStudentSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CodeForge_Winform.Presentation\Forms\Student\ucSubmissions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CodeForge_Winform.Presentation\Forms\Student\ucSubmissions.Designer.cs">
+      <DependentUpon>ucSubmissions.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CodeForge_Winform.Presentation\Forms\MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <EmbeddedResource Include="CodeForge_Winform.Presentation\Forms\Admin\MainFormAdmin.resx">
+      <DependentUpon>MainFormAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodeForge_Winform.Presentation\Forms\Admin\ucAdminDashboard.resx">
+      <DependentUpon>ucAdminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodeForge_Winform.Presentation\Forms\Admin\ucAdminSettings.resx">
+      <DependentUpon>ucAdminSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodeForge_Winform.Presentation\Forms\Admin\ucProblemManagement.resx">
+      <DependentUpon>ucProblemManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodeForge_Winform.Presentation\Forms\Admin\ucSystemLogs.resx">
+      <DependentUpon>ucSystemLogs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodeForge_Winform.Presentation\Forms\Admin\ucUserManagement.resx">
+      <DependentUpon>ucUserManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodeForge_Winform.Presentation\Forms\Student\MainFormStudent.resx">
+      <DependentUpon>MainFormStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodeForge_Winform.Presentation\Forms\Student\ucProblemList.resx">
+      <DependentUpon>ucProblemList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodeForge_Winform.Presentation\Forms\Student\ucStudentDashboard.resx">
+      <DependentUpon>ucStudentDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodeForge_Winform.Presentation\Forms\Student\ucStudentSettings.resx">
+      <DependentUpon>ucStudentSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CodeForge_Winform.Presentation\Forms\Student\ucSubmissions.resx">
+      <DependentUpon>ucSubmissions.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -101,13 +191,18 @@
     <Folder Include="CodeForge_Winform.DataAccess\Interfaces\" />
     <Folder Include="CodeForge_Winform.DataAccess\Model\" />
     <Folder Include="CodeForge_Winform.DataAccess\Repositories\" />
-    <Folder Include="CodeForge_Winform.Presentation\Forms\Admin\" />
-    <Folder Include="CodeForge_Winform.Presentation\Forms\Student\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
-    <None Include="Resources\18d369ee-976d-4395-854f-b3f78d69f8422.png" />
-    <None Include="Resources\18d369ee-976d-4395-854f-b3f78d69f8421.png" />
+    <None Include="Resources\trend %282%29.png" />
+    <None Include="Resources\paper.png" />
+    <None Include="Resources\group.png" />
+    <None Include="Resources\setting.png" />
+    <None Include="Resources\history.png" />
+    <None Include="Resources\logout %281%29.png" />
+    <None Include="Resources\list.png" />
+    <None Include="Resources\home.png" />
+    <None Include="Resources\logo.png" />
     <None Include="Resources\18d369ee-976d-4395-854f-b3f78d69f842.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

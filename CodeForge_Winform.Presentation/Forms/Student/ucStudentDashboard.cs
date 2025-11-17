@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CodeForge_Winform.CodeForge_Winform.Presentation.Forms
+namespace CodeForge_Winform.CodeForge_Winform.Presentation.Forms.Student
 {
-    public partial class MainForm : Form
+    public partial class ucStudentDashboard : UserControl
     {
-        public MainForm()
+        public ucStudentDashboard()
         {
             InitializeComponent();
         }
