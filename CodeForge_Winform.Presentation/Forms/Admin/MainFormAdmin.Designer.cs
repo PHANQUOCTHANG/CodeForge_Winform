@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.btnCaiDat = new Guna.UI2.WinForms.Guna2Button();
             this.btnDangXuat = new Guna.UI2.WinForms.Guna2Button();
             this.btnSystemLogs = new Guna.UI2.WinForms.Guna2Button();
             this.btnQuanLyAssignments = new Guna.UI2.WinForms.Guna2Button();
@@ -37,7 +38,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.btnCaiDat = new Guna.UI2.WinForms.Guna2Button();
             this.pnlContent = new System.Windows.Forms.Panel();
             this.guna2GradientPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -58,6 +58,26 @@
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.Size = new System.Drawing.Size(262, 803);
             this.guna2GradientPanel1.TabIndex = 1;
+            // 
+            // btnCaiDat
+            // 
+            this.btnCaiDat.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCaiDat.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCaiDat.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCaiDat.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCaiDat.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnCaiDat.FillColor = System.Drawing.Color.Transparent;
+            this.btnCaiDat.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCaiDat.ForeColor = System.Drawing.Color.White;
+            this.btnCaiDat.Image = global::CodeForge_Winform.Properties.Resources.setting;
+            this.btnCaiDat.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnCaiDat.Location = new System.Drawing.Point(0, 301);
+            this.btnCaiDat.Name = "btnCaiDat";
+            this.btnCaiDat.Size = new System.Drawing.Size(262, 60);
+            this.btnCaiDat.TabIndex = 6;
+            this.btnCaiDat.Text = "Cài đặt";
+            this.btnCaiDat.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.btnCaiDat.Click += new System.EventHandler(this.btnCaiDat_Click);
             // 
             // btnDangXuat
             // 
@@ -192,26 +212,6 @@
             this.guna2ImageButton1.Size = new System.Drawing.Size(64, 59);
             this.guna2ImageButton1.TabIndex = 0;
             // 
-            // btnCaiDat
-            // 
-            this.btnCaiDat.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnCaiDat.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnCaiDat.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnCaiDat.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCaiDat.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnCaiDat.FillColor = System.Drawing.Color.Transparent;
-            this.btnCaiDat.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCaiDat.ForeColor = System.Drawing.Color.White;
-            this.btnCaiDat.Image = global::CodeForge_Winform.Properties.Resources.setting;
-            this.btnCaiDat.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnCaiDat.Location = new System.Drawing.Point(0, 301);
-            this.btnCaiDat.Name = "btnCaiDat";
-            this.btnCaiDat.Size = new System.Drawing.Size(262, 60);
-            this.btnCaiDat.TabIndex = 6;
-            this.btnCaiDat.Text = "Cài đặt";
-            this.btnCaiDat.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.btnCaiDat.Click += new System.EventHandler(this.btnCaiDat_Click);
-            // 
             // pnlContent
             // 
             this.pnlContent.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -228,6 +228,7 @@
             this.Controls.Add(this.pnlContent);
             this.Controls.Add(this.guna2GradientPanel1);
             this.Name = "MainFormAdmin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainFormAdmin";
             this.Load += new System.EventHandler(this.MainFormAdmin_Load);
             this.guna2GradientPanel1.ResumeLayout(false);
