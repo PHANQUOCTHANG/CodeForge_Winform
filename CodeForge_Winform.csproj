@@ -194,6 +194,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="Resources\google-docs.png" />
+    <Content Include="Resources\google-docs1.png" />
+    <None Include="Resources\google-docs11.png" />
+    <Content Include="Resources\google-docsAd.png" />
+    <Content Include="Resources\group1.png" />
+    <None Include="Resources\group11.png" />
+    <Content Include="Resources\groupAd.png" />
+    <None Include="Resources\groupAd1.png" />
+    <Content Include="Resources\pulse.png" />
+    <Content Include="Resources\pulse1.png" />
+    <None Include="Resources\pulse11.png" />
+    <Content Include="Resources\pulseAd.png" />
+    <Content Include="Resources\trend.png" />
+    <Content Include="Resources\trendAd.png" />
     <None Include="Resources\trend %282%29.png" />
     <None Include="Resources\paper.png" />
     <None Include="Resources\group.png" />
